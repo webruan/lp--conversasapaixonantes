@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){let e=document.querySelectorAll(".q-a");e.forEach((s,t)=>{s.addEventListener("click",()=>{e.forEach(e=>e.classList.remove("open")),"open"!==e[t].classList?e[t].classList.add("open"):e[t].classList.remove("open")})})});
