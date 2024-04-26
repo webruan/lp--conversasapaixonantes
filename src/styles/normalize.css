@@ -129,7 +129,7 @@ a {
 a.row {
   width: fit-content;
 
-  padding: 16px;
+  padding: 8px 16px;
 
   justify-content: center;
   align-items: center;
@@ -148,7 +148,7 @@ a.row {
 }
 
 a.row:hover {
-  padding: 16px 24px;
+  padding: 8px 32px;
   background: linear-gradient(90deg, var(--color-primary-1) 0%, var(--color-primary) 100%);
   box-shadow: 0 4px 8px 0 var(--color-primary-1);
   transition: all 500ms ease-in-out;
@@ -360,11 +360,5 @@ span.b-primary-1 {
   a.row {
     text-align: center;
     font-size: 17px;
-  }
-}
-
-@media (min-width: 374px) and (max-width: 767px) {
-  a.row {
-    padding: 16px !important;
   }
 }

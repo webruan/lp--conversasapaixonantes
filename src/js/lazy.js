@@ -37,24 +37,20 @@ function loadImages() { // Declaração da função 'loadImages'.
         altText: 'Casal na praia se abraçando, o homem está entregando uma rosa para ela'
       },
       {
-        imgNameId: 'doubt-left', // O 'imgNameId' recebe a mesma string do nome da imagem desejada
-        altText: 'Casal na friendzone, a mulher fazendo coração e o homem fazendo sinal de positivo'
+        imgNameId: 'structure-write', // O 'imgNameId' recebe a mesma string do nome da imagem desejada
+        altText: 'Pessoa escrevendo em um vidro'
       },
       {
-        imgNameId: 'doubt-right', // O 'imgNameId' recebe a mesma string do nome da imagem desejada
-        altText: 'Homem deitado no chão com uma aliança segurando a perna da mulher'
+        imgNameId: 'structure-balloon', // O 'imgNameId' recebe a mesma string do nome da imagem desejada
+        altText: 'Pessoa escondendo o rosto com um balão de pensamento'
       },
       {
         imgNameId: 'done-pami', // O 'imgNameId' recebe a mesma string do nome da imagem desejada
         altText: 'Pâmi Garcia gesticulando e fazendo careta'
       },
       {
-        imgNameId: 'steps-left', // O 'imgNameId' recebe a mesma string do nome da imagem desejada
-        altText: 'Mulher se sentindo livre'
-      },
-      {
-        imgNameId: 'steps-right', // O 'imgNameId' recebe a mesma string do nome da imagem desejada
-        altText: 'Mulher elegante de salto e calça social subindo a escada'
+        imgNameId: 'steps-woman', // O 'imgNameId' recebe a mesma string do nome da imagem desejada
+        altText: 'Mulher com vestido vermelho se sentindo livre'
       },
       {
         imgNameId: 'with-date', // O 'imgNameId' recebe a mesma string do nome da imagem desejada
@@ -85,10 +81,6 @@ function loadImages() { // Declaração da função 'loadImages'.
         altText: 'Pâmi mostrando os feedbacks'
       },
       {
-        imgNameId: 'benefits-left', // O 'imgNameId' recebe a mesma string do nome da imagem desejada
-        altText: 'Pâmi usando o notebook'
-      },
-      {
         imgNameId: 'benefits-right', // O 'imgNameId' recebe a mesma string do nome da imagem desejada
         altText: 'Pâmi escrevendo no caderno'
       },
@@ -101,19 +93,23 @@ function loadImages() { // Declaração da função 'loadImages'.
         altText: 'Celular'
       },
       {
-        imgNameId: 'stats-men', // O 'imgNameId' recebe a mesma string do nome da imagem desejada
+        imgNameId: 'text-men', // O 'imgNameId' recebe a mesma string do nome da imagem desejada
         altText: 'Três amigos usando o celular e sorrindo'
       },
       {
-        imgNameId: 'stats-holding', // O 'imgNameId' recebe a mesma string do nome da imagem desejada
-        altText: 'Homem jogado segurando a pena da mulher'
-      },
-      {
-        imgNameId: 'problem-social', // O 'imgNameId' recebe a mesma string do nome da imagem desejada
+        imgNameId: 'problem-picture', // O 'imgNameId' recebe a mesma string do nome da imagem desejada
         altText: 'Mãos femininas usando as redes sociais no celular'
       },
       {
-        imgNameId: 'problem-couple', // O 'imgNameId' recebe a mesma string do nome da imagem desejada
+        imgNameId: 'problem-post', // O 'imgNameId' recebe a mesma string do nome da imagem desejada
+        altText: 'Pâmi e seu marido felizes deitados no sofá'
+      },
+      {
+        imgNameId: 'problem-description', // O 'imgNameId' recebe a mesma string do nome da imagem desejada
+        altText: 'Mãos femininas usando as redes sociais no celular'
+      },
+      {
+        imgNameId: 'problem-sex', // O 'imgNameId' recebe a mesma string do nome da imagem desejada
         altText: 'Pâmi e seu marido felizes deitados no sofá'
       },
       {
@@ -186,7 +182,7 @@ function loadImages() { // Declaração da função 'loadImages'.
           </picture>
         `;
       } else {
-        console.log('Imagem indisponível')
+        console.log('Imagem ' + imagePath.imgNameId + ' indisponível')
       }
     });
 
